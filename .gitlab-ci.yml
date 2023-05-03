@@ -1,5 +1,5 @@
 tagspec:
-  script: echo 'Hello tagspec'
+  script: echo 'Hello tagspec job'
   rules:
   - if: $CI_COMMIT_TAG =~ /v5.4.\d+/
   tags:
